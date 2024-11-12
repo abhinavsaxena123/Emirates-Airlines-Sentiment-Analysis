@@ -6,8 +6,8 @@ This project aims to analyze customer sentiments about Emirates Airlines by coll
 ## Installation:
 ### 1. Clone this repository
 ```
-git clone
-cd 
+git clone https://github.com/abhinavsaxena123/Emirates-Airlines-Sentiment-Analysis
+cd Emirates-Airlines-Sentiment-Analysis
 ```
 
 ### 2. Install dependencies
