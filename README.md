@@ -10,15 +10,21 @@ git clone https://github.com/abhinavsaxena123/Emirates-Airlines-Sentiment-Analys
 cd Emirates-Airlines-Sentiment-Analysis
 ```
 
-### 2. Install dependencies
+### 2. Set Up a Virtual Environment
+* Using venv (for Python):
+```
+python3 -m venv env                        # Use `python` on Windows instead of `python3`
+source env/bin/activate                    # On Windows, use source env/Scripts/activate
+```
+
+### 3. Install dependencies
 ```
 pip install -r requirements.txt
 ```
 
-### 3. Run the Flask app ✈️
+### 4. Run the Flask app ✈️
 ```
 python app.py
-
 ```
 
 
