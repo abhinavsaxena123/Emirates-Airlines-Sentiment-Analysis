@@ -3,6 +3,29 @@
 ## Project Overview
 This project aims to analyze customer sentiments about Emirates Airlines by collecting and processing data from online reviews. The insights gathered can help understand customer satisfaction levels, recurring topics, and key areas of improvement.
 
+## Installation:
+### 1. Clone this repository
+```
+git clone
+cd 
+```
+
+### 2. Install dependencies
+```
+pip install -r requirements.txt
+```
+
+### 3. Run the Flask app
+```
+python app.py
+
+```
+
+
+
+
+
+
 ## Introduction
 The goal is to capture and analyze customer sentiment regarding Emirates Airlines using machine learning and natural language processing. The project processes raw textual data and applies sentiment classification and topic modeling to uncover valuable insights.
 
