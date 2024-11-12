@@ -1,9 +1,9 @@
-# Emirates-Airlines-Sentiment-Analysis
+# Emirates-Airlines-Sentiment-Analysis ✈️
 
-## Project Overview
+## Project Overview 
 This project aims to analyze customer sentiments about Emirates Airlines by collecting and processing data from online reviews. The insights gathered can help understand customer satisfaction levels, recurring topics, and key areas of improvement.
 
-## Installation:
+## Installation: ⚙️
 ### 1. Clone this repository
 ```
 git clone https://github.com/abhinavsaxena123/Emirates-Airlines-Sentiment-Analysis
@@ -15,7 +15,7 @@ cd Emirates-Airlines-Sentiment-Analysis
 pip install -r requirements.txt
 ```
 
-### 3. Run the Flask app
+### 3. Run the Flask app ✈️
 ```
 python app.py
 
@@ -29,7 +29,7 @@ python app.py
 ## Introduction
 The goal is to capture and analyze customer sentiment regarding Emirates Airlines using machine learning and natural language processing. The project processes raw textual data and applies sentiment classification and topic modeling to uncover valuable insights.
 
-## Data Collection
+## Data Collection 
 Data was gathered through web scraping using Beautiful Soup to collect reviews from [website - Skytrax]. The scraping script, located in Data_Collection/Web_Scraping.ipynb, extracts text reviews, ratings, and any relevant metadata.
 
 ## Data Cleaning
