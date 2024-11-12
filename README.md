@@ -29,9 +29,6 @@ python app.py
 
 
 
-
-
-
 ## Introduction
 The goal is to capture and analyze customer sentiment regarding Emirates Airlines using machine learning and natural language processing. The project processes raw textual data and applies sentiment classification and topic modeling to uncover valuable insights.
 
@@ -71,8 +68,27 @@ Each model was evaluated using metrics like accuracy, F1-score, and confusion ma
 ## Web Application
 A Flask web app was created to allow users to input new reviews and predict sentiment in real-time.
 
-
 ## Results
+### Model Performance Summary
+<img width="833" alt="image" src="https://github.com/user-attachments/assets/3ffd894f-3723-45f3-be65-ce38cf7c9f18">
+
+### Analysis
+### 1. Top Performers:
+* SVM achieved the highest scores across all metrics except precision, indicating strong overall performance in detecting sentiments effectively.
+* XGBoost also performed well, with slightly lower F1 and recall scores compared to SVM but close precision.
+
+### 2. Boosting Methods:
+* Gradient Boost and AdaBoost scored relatively well, especially in terms of precision, but were slightly outperformed by XGBoost and SVM.
+
+### 3. Decision Tree Variants:
+* Both decision tree classifiers had moderate performance, with GridSearch tuning slightly improving recall but marginally lowering precision.
+
+### 4. Random Forest:
+Precision for the Random Forest classifier was high, but recall and F1 were lower, suggesting it struggled with correctly identifying some sentiment classes.
+
+### 5. Multinomial Naive Bayes (MNB):
+MNB showed the highest precision but a very low F1 score, indicating that while it made fewer false positives, it missed many actual cases due to low recall. This trade-off can be useful if precision is prioritized over recall.
+
 Our sentiment analysis revealed that X% of reviews are positive, Y% are neutral, and Z% are negative. The top themes identified in the topic modeling were related to customer service, in-flight entertainment, and amenities.
 
 ## Future Improvements
