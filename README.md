@@ -45,11 +45,22 @@ The raw data was cleaned to remove duplicates, null values, and irrelevant conte
 ## Exploratory Data Analysis (EDA)
 We performed an EDA to understand general trends, including:
 * Rating distributions
+<img width="862" alt="image" src="https://github.com/user-attachments/assets/f573cbd3-7e61-4bf1-85c0-e7a05645e3db">
+
 * Country-Based Analysis
 * Visualizations of sentiment distribution by word cloud and bar charts
 
+
 ## Sentiment Analysis
 Sentiment classification was applied to categorize reviews as positive, neutral, or negative using libraries such as VADER or a machine learning model like Naive Bayes. The labeled data was used to train, validate, and test the sentiment classifier.
+
+<img width="744" alt="image" src="https://github.com/user-attachments/assets/d661f4d6-3a31-4e87-9fb6-17417ecc6cab">
+
+<img width="554" alt="image" src="https://github.com/user-attachments/assets/1602a4ce-0f1d-4a32-8c13-0dda984b1b55">
+
+<img width="563" alt="image" src="https://github.com/user-attachments/assets/afe86b4f-b9f4-40db-ace5-989fae9275a7">
+
+
 
 ## Topic Modeling
 Topic modeling was performed using Latent Dirichlet Allocation (LDA) to identify recurring themes in the reviews, such as 'service quality,' 'comfort,' and 'food and beverage.'
