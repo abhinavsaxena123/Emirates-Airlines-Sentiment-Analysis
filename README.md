@@ -54,16 +54,30 @@ We performed an EDA to understand general trends, including:
 ## Sentiment Analysis
 Sentiment classification was applied to categorize reviews as positive, neutral, or negative using libraries such as VADER or a machine learning model like Naive Bayes. The labeled data was used to train, validate, and test the sentiment classifier.
 
+<img width="785" alt="image" src="https://github.com/user-attachments/assets/3f66a2f6-382c-4889-be3c-a150c5241ddd">
+
 <img width="744" alt="image" src="https://github.com/user-attachments/assets/d661f4d6-3a31-4e87-9fb6-17417ecc6cab">
 
 <img width="554" alt="image" src="https://github.com/user-attachments/assets/1602a4ce-0f1d-4a32-8c13-0dda984b1b55">
 
 <img width="563" alt="image" src="https://github.com/user-attachments/assets/afe86b4f-b9f4-40db-ace5-989fae9275a7">
 
+### Sentiment Scores by Country:
+
+<img width="394" alt="image" src="https://github.com/user-attachments/assets/e05ba5c9-d28c-463b-907e-0fa8e2969a6d">
+
+### Out of 601 negative reviews, the above countries have maximum negative reviews, rest have less than 10 reviews.
+
+### Most Common Issues faced by Top 4 countries:
+
+<img width="360" alt="image" src="https://github.com/user-attachments/assets/a0561718-171d-4c43-b5e3-ce260db5d794">
+
+Based on the data, the most frequent issue across countries is "service," particularly in the United Kingdom, which has the highest count at 179. Australia also reported notable service issues, with 95 mentions. Seat-related issues were most prominent in the United Arab Emirates, while "hour" issues, likely related to delays or wait times, were highlighted in the United States. This analysis suggests that service quality may be a primary concern for Emirates Airlines passengers, especially in regions like the UK and Australia. Addressing these service concerns could improve overall customer satisfaction.
 
 
 ## Topic Modeling
 Topic modeling was performed using Latent Dirichlet Allocation (LDA) to identify recurring themes in the reviews, such as 'service quality,' 'comfort,' and 'food and beverage.'
+The top themes identified in the topic modeling were related to customer service, in-flight entertainment, and amenities.
 
 ## Modeling and Evaluation
 Various models were experimented with for sentiment analysis, including:
@@ -83,6 +97,10 @@ A Flask web app was created to allow users to input new reviews and predict sent
 ### Model Performance Summary
 <img width="833" alt="image" src="https://github.com/user-attachments/assets/3ffd894f-3723-45f3-be65-ce38cf7c9f18">
 
+### Confusion Matrix of SVM 
+<img width="470" alt="image" src="https://github.com/user-attachments/assets/9931a377-5346-4edd-8b73-e47434e271c7">
+
+
 ### Analysis
 ### 1. Top Performers:
 * SVM achieved the highest scores across all metrics except precision, indicating strong overall performance in detecting sentiments effectively.
@@ -100,7 +118,6 @@ Precision for the Random Forest classifier was high, but recall and F1 were lowe
 ### 5. Multinomial Naive Bayes (MNB):
 MNB showed the highest precision but a very low F1 score, indicating that while it made fewer false positives, it missed many actual cases due to low recall. This trade-off can be useful if precision is prioritized over recall.
 
-Our sentiment analysis revealed that X% of reviews are positive, Y% are neutral, and Z% are negative. The top themes identified in the topic modeling were related to customer service, in-flight entertainment, and amenities.
 
 ## Future Improvements
 * Implement additional deep learning models for more accurate sentiment classification.
