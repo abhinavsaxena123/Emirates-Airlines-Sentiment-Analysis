@@ -3,6 +3,25 @@
 ## Project Overview 
 This project aims to analyze customer sentiments about Emirates Airlines by collecting and processing data from online reviews. The insights gathered can help understand customer satisfaction levels, recurring topics, and key areas of improvement.
 
+## Flask App Screenshot
+Take a look at some screenshots from our Airline Review Analysis app. This app allows users to browse both positive and negative reviews submitted by passengers. It provides real-time insights into customer satisfaction.
+
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/d58165ea-a7de-4706-b1e2-262cb50ea005">
+
+
+
+
+
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/4c677d9c-a22a-43a4-a9bd-757752d479fe">
+
+
+
+### Users can also upload the csv files containing reviews.
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/e13ba5f6-0480-412f-a7f9-4e9d0f1404d8">
+
+
+
 ## Installation: ⚙️
 ### 1. Clone this repository
 ```
