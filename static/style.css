@@ -1,0 +1,98 @@
+/* static/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    background-image: url("../static/img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1.text-center {
+    font-family: 'Arial', sans-serif;  /* Use a modern font */
+    font-size: 3em;  /* Increase the font size */
+    font-weight: bold;  /* Make it bold */
+    color: #004080;  /* Emirates-themed deep blue */
+    text-align: center;  /* Center the text */
+    padding: 20px;  /* Add padding for spacing */
+    text-transform: uppercase;  /* Make text uppercase */
+    letter-spacing: 2px;  /* Add space between letters */
+    background: linear-gradient(90deg, #dd2626 0%, #ea890b 100%); /* Gradient background */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  /* Text gradient effect */
+    border-bottom: 5px solid #76a4e4;  /* Add a bottom border for emphasis */
+    margin-top: 20px;  /* Adjust margin from top */
+    margin-bottom: 30px;  /* Adjust margin from bottom */
+    position: relative;
+}
+
+h1.text-center::after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 5px;
+    background-color: #004080;
+    margin: 10px auto 0;
+}
+
+h2 {
+    text-align: center;
+    color: #0077b6;
+}
+
+textarea, input[type="file"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #0077b6;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #005f87;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table, .table-bordered {
+    border: 1px solid #efd3d3;
+    text-align: left;
+    background-color: rgba(244, 237, 237, 0.9); 
+}
+
+.table-bordered th, .table-bordered td {
+    padding: 8px;
+    background-color: rgba(248, 246, 246, 0.8);
+}
+
+.table-bordered th {
+    background-color: #f1eaea;
+}
